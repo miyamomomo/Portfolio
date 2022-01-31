@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>プロフィールページ</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 50px;
+            background-color: lightgray;
+        }
+
+        .starter-template {
+            padding: 40px 40px;
+            background-color: white;
+        }
+        
+        .color-pencil{
+            color: lightseagreen;
+        }
+        
+        .color-wrench{
+            color:steelblue;
+        }
+        
+        .color-user{
+            color: rgb(122, 18, 35);
+        }
+        
+        .icon-size{
+            font-size:150%;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">宮本将光</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">ポートフォリオ</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+    <div class="container">
+        <div class="starter-template">
+            <h1>宮本将光のポートフォリオ</h1>
+            <p class="lead">よろしくお願いいたします。 </p>
+            <div class="row text-center">
+                <h2></h2>
+                <div class="col-sm-4">
+                    <h3 class="color-pencil"><span class="glyphicon glyphicon-pencil icon-size"></span><br>スキルアップ</h3>
+                    <p>コーディングがもっとできるようになるためにAtCoderを頑張っています。<br>AWS、G検定の資格取得にむけた勉強も頑張っています。</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3 class="color-wrench"><span class="glyphicon glyphicon-wrench icon-size"><br>作る</h3>
+                    <p>個人での製作経験はpythonでのメモ帳アプリ<br>掲示板アプリの作成</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3 class="color-user"><span class="glyphicon glyphicon-user icon-size" ><br>その他</h3>
+                    <p>blenderを使った簡単な3DCGの作成</p>
+                </div>
+            </div>
+            <h2 id="works">Works</h2>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3>FLASK,SQLAlchemyを使った<br>メモ帳アプリ</h3>
+                    <p>apache、phpMYadminの設定にはすこし苦労しました。<br>ただWAFの使用メタキャラクターのエスケープ処理などができず公開はできませんでした。</p>
+                    <a class="btn btn-primary" href="https://github.com/miyamomomo">github</a>
+                </div>
+                <div class="col-sm-6">
+                    <h3>Djangoを使った掲示板アプリ</h3>
+                    <p>Flaskよりは複雑でしたが、もっと色々作り慣れていきたいです。</p>
+                </div>
+            </div>
+            <hr>
+            <h2 id="skills">Skills</h2>
+            <h3>使用,学習中の言語</h3>
+            <ur>
+                <li>Python3</li>
+                <li>HTML,CSS</li>
+                <li>SQL</li>
+                <li>java-script</li>
+                <li>swift</li>
+                <li>必要とされる言語があれば、学習します。</li>
+
+
+            </ur>
+            
+
+            <div class="row starter-template">
+            <a class="btn btn-primary" href="#">Topに戻る</a>
+        </div>
+    </div>
+    <!-- /.container -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
